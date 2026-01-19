@@ -1,5 +1,6 @@
 import 'package:get/get.dart';
 import 'package:login_apps/Home%20Screen/bottom_nav_bar.dart';
+import 'package:login_apps/Home%20Screen/details_page.dart';
 import 'package:login_apps/Home%20Screen/home_page.dart';
 import 'package:login_apps/View/Screen/splash_screen.dart';
 import 'package:login_apps/authentication_screen/forgot_password_screen.dart';
@@ -18,6 +19,7 @@ class AppRoute{
   static const String resetPassword = '/reset_password';
   static const String homePage = '/home_page';
   static const String bottomNavBar = '/bottom_nav_bar';
+  static const String detailsPage = '/details_page';
 
 
   static List<GetPage> routes = [
@@ -31,6 +33,7 @@ class AppRoute{
     GetPage(name: resetPassword, page: () => const ResetPassword()),
     GetPage(name: homePage, page: () => const HomePage()),
     GetPage(name: bottomNavBar, page: () => const BottomNavBar()),
+    GetPage(name: detailsPage, page: () => const DetailsPage()),
 
 
   ];

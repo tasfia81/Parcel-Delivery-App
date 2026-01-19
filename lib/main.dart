@@ -16,6 +16,7 @@ class ParcelDeliveryApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
         initialRoute: '/',
         getPages: AppRoute.routes,
-        home: SplashScreen());
+        home: SplashScreen()
+    );
   }
 }
